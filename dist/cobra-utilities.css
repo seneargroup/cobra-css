@@ -203,3 +203,224 @@
 .ml-1 { margin-left: 0.25rem; }
 
 
+/* ===== File: typography.css ===== */
+/* ===== typography.css ===== */
+
+/* Font Sizes */
+.text-xs { font-size: 0.75rem; }
+.text-sm { font-size: 0.875rem; }
+.text-base { font-size: 1rem; }
+.text-lg { font-size: 1.125rem; }
+.text-xl { font-size: 1.25rem; }
+.text-2xl { font-size: 1.5rem; }
+.text-3xl { font-size: 1.875rem; }
+.text-4xl { font-size: 2.25rem; }
+.text-5xl { font-size: 3rem; }
+.text-6xl { font-size: 3.75rem; }
+
+/* Font Weight */
+.font-thin { font-weight: 100; }
+.font-extralight { font-weight: 200; }
+.font-light { font-weight: 300; }
+.font-normal { font-weight: 400; }
+.font-medium { font-weight: 500; }
+.font-semibold { font-weight: 600; }
+.font-bold { font-weight: 700; }
+.font-extrabold { font-weight: 800; }
+.font-black { font-weight: 900; }
+
+/* Text Alignment */
+.text-left { text-align: left; }
+.text-center { text-align: center; }
+.text-right { text-align: right; }
+.text-justify { text-align: justify; }
+
+/* Text Transform */
+.uppercase { text-transform: uppercase; }
+.lowercase { text-transform: lowercase; }
+.capitalize { text-transform: capitalize; }
+.normal-case { text-transform: none; }
+
+
+/* ===== File: flexbox.css ===== */
+/* ===== flexbox.css ===== */
+
+/* Flex Container */
+.flex { display: flex; }
+.inline-flex { display: inline-flex; }
+
+.flex-row { flex-direction: row; }
+.flex-row-reverse { flex-direction: row-reverse; }
+.flex-col { flex-direction: column; }
+.flex-col-reverse { flex-direction: column-reverse; }
+
+.flex-wrap { flex-wrap: wrap; }
+.flex-nowrap { flex-wrap: nowrap; }
+.flex-wrap-reverse { flex-wrap: wrap-reverse; }
+
+/* Justify Content */
+.justify-start { justify-content: flex-start; }
+.justify-center { justify-content: center; }
+.justify-end { justify-content: flex-end; }
+.justify-between { justify-content: space-between; }
+.justify-around { justify-content: space-around; }
+.justify-evenly { justify-content: space-evenly; }
+
+/* Align Items */
+.items-start { align-items: flex-start; }
+.items-center { align-items: center; }
+.items-end { align-items: flex-end; }
+.items-baseline { align-items: baseline; }
+.items-stretch { align-items: stretch; }
+
+/* Align Content */
+.content-start { align-content: flex-start; }
+.content-center { align-content: center; }
+.content-end { align-content: flex-end; }
+.content-between { align-content: space-between; }
+.content-around { align-content: space-around; }
+.content-stretch { align-content: stretch; }
+
+/* Flex Grow, Shrink and Basis */
+.flex-grow { flex-grow: 1; }
+.flex-grow-0 { flex-grow: 0; }
+.flex-shrink { flex-shrink: 1; }
+.flex-shrink-0 { flex-shrink: 0; }
+.flex-auto { flex: 1 1 auto; }
+.flex-initial { flex: 0 1 auto; }
+.flex-none { flex: none; }
+
+
+/* ===== File: border.css ===== */
+/* ===== border.css ===== */
+
+/* Border Width */
+.border { border-width: 1px; border-style: solid; }
+.border-0 { border-width: 0; }
+.border-2 { border-width: 2px; }
+.border-4 { border-width: 4px; }
+.border-8 { border-width: 8px; }
+
+/* Border Style */
+.border-solid { border-style: solid; }
+.border-dashed { border-style: dashed; }
+.border-dotted { border-style: dotted; }
+.border-double { border-style: double; }
+.border-none { border-style: none; }
+
+/* Border Radius */
+.rounded { border-radius: 0.25rem; }
+.rounded-sm { border-radius: 0.125rem; }
+.rounded-md { border-radius: 0.375rem; }
+.rounded-lg { border-radius: 0.5rem; }
+.rounded-xl { border-radius: 0.75rem; }
+.rounded-2xl { border-radius: 1rem; }
+.rounded-3xl { border-radius: 1.5rem; }
+.rounded-full { border-radius: 9999px; }
+
+/* Border Sides */
+.border-t { border-top-width: 1px; }
+.border-r { border-right-width: 1px; }
+.border-b { border-bottom-width: 1px; }
+.border-l { border-left-width: 1px; }
+
+/* Border Colors */
+/* Assuming you already have .border-color utilities in colors.css */
+
+
+/* ===== File: positioning.css ===== */
+/* ===== positioning.css ===== */
+
+.static { position: static; }
+.relative { position: relative; }
+.absolute { position: absolute; }
+.fixed { position: fixed; }
+.sticky { position: sticky; }
+
+/* Inset */
+.inset-0 { top: 0; right: 0; bottom: 0; left: 0; }
+.inset-auto { top: auto; right: auto; bottom: auto; left: auto; }
+
+.top-0 { top: 0; }
+.right-0 { right: 0; }
+.bottom-0 { bottom: 0; }
+.left-0 { left: 0; }
+
+.top-auto { top: auto; }
+.right-auto { right: auto; }
+.bottom-auto { bottom: auto; }
+.left-auto { left: auto; }
+
+/* Z-index */
+.z-0 { z-index: 0; }
+.z-10 { z-index: 10; }
+.z-20 { z-index: 20; }
+.z-30 { z-index: 30; }
+.z-40 { z-index: 40; }
+.z-50 { z-index: 50; }
+.z-auto { z-index: auto; }
+
+
+/* ===== File: states.css ===== */
+/* ===== states.css ===== */
+
+/* Hover States */
+
+.hover\:bg-gray-200:hover { background-color: #e5e7eb; }
+.hover\:bg-red-600:hover { background-color: #dc2626; }
+.hover\:bg-green-600:hover { background-color: #059669; }
+.hover\:bg-blue-600:hover { background-color: #2563eb; }
+
+/* Text Hover */
+
+.hover\:text-red-600:hover { color: #dc2626; }
+.hover\:text-green-600:hover { color: #059669; }
+.hover\:text-blue-600:hover { color: #2563eb; }
+
+/* Border Hover */
+
+.hover\:border-red-600:hover { border-color: #dc2626; }
+.hover\:border-green-600:hover { border-color: #059669; }
+.hover\:border-blue-600:hover { border-color: #2563eb; }
+
+/* Focus States */
+
+.focus\:outline-none:focus { outline: none; }
+.focus\:ring-2:focus { box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5); }
+
+/* Active States */
+
+.active\:bg-gray-300:active { background-color: #d1d5db; }
+.active\:text-gray-900:active { color: #111827; }
+
+
+/* ===== File: responsive.css ===== */
+/* ===== responsive.css ===== */
+
+/* Breakpoints */
+@media (min-width: 640px) { /* sm */
+  .sm\:text-center { text-align: center; }
+  .sm\:hidden { display: none; }
+  .sm\:flex { display: flex; }
+  .sm\:p-4 { padding: 1rem; }
+  /* Add more sm: prefixed utilities as needed */
+}
+
+@media (min-width: 768px) { /* md */
+  .md\:text-left { text-align: left; }
+  .md\:flex { display: flex; }
+  /* Add more md: prefixed utilities */
+}
+
+@media (min-width: 1024px) { /* lg */
+  .lg\:grid { display: grid; }
+  .lg\:p-6 { padding: 1.5rem; }
+  /* Add more lg: prefixed utilities */
+}
+
+@media (min-width: 1280px) { /* xl */
+  .xl\:max-w-4xl { max-width: 56rem; }
+  /* Add more xl: prefixed utilities */
+}
+
+

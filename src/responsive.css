@@ -1,0 +1,27 @@
+/* ===== responsive.css ===== */
+
+/* Breakpoints */
+@media (min-width: 640px) { /* sm */
+  .sm\:text-center { text-align: center; }
+  .sm\:hidden { display: none; }
+  .sm\:flex { display: flex; }
+  .sm\:p-4 { padding: 1rem; }
+  /* Add more sm: prefixed utilities as needed */
+}
+
+@media (min-width: 768px) { /* md */
+  .md\:text-left { text-align: left; }
+  .md\:flex { display: flex; }
+  /* Add more md: prefixed utilities */
+}
+
+@media (min-width: 1024px) { /* lg */
+  .lg\:grid { display: grid; }
+  .lg\:p-6 { padding: 1.5rem; }
+  /* Add more lg: prefixed utilities */
+}
+
+@media (min-width: 1280px) { /* xl */
+  .xl\:max-w-4xl { max-width: 56rem; }
+  /* Add more xl: prefixed utilities */
+}
