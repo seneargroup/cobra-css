@@ -1,6 +1,6 @@
 {
   "name": "cobra-css",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A utility-first CSS library inspired by Tailwind CSS for fast UI development",
   "main": "dist/cobra-utilities.css",
   "files": [
