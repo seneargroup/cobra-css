@@ -60,24 +60,27 @@ Users install in their project by running:
 
 bash
 npm install cobra-css
+
 2. Include in JavaScript or front-end build
 Import the CSS inside your JavaScript entry point or wherever you bundle your styles:
 
 js
 import 'cobra-css/dist/cobra-utilities.css';
+
 3. Include in plain HTML projects
 Add a <link> tag in your HTML <head> referencing the CSS inside node_modules or from your own hosted copy:
 
-xml
+
 <link rel="stylesheet" href="node_modules/cobra-css/dist/cobra-utilities.css" />
 Or from a CDN if you host or use jsDelivr (after publishing):
 
-xml
+
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cobra-css@1.0.0/dist/cobra-utilities.css" />
+
 4. Use Cobra utility classes in your markup
 You can then build your UI by adding utility classes:
 
-xml
+
 <button class="bg-blue-500 text-white p-4 rounded hover:bg-blue-600 transition">
   Click Me!
 </button>
@@ -85,6 +88,9 @@ xml
 <div class="flex justify-center items-center p-6 bg-gray-100 rounded-lg">
   <p class="text-gray-700 text-lg">Welcome to Cobra CSS!</p>
 </div>
+
+5. Customize or extend Cobra CSS
+
 Additional tips for users:
 Combine multiple utility classes to achieve complex layouts and styles.
 
