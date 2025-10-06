@@ -20,7 +20,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/seneargroup/cobra-css.git"
+    "url": "git+https://github.com/seneargroup/cobra-css.git"
   },
   "bugs": {
     "url": "https://github.com/seneargroup/cobra-css/issues"
