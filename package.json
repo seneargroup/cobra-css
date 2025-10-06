@@ -1,0 +1,32 @@
+{
+  "name": "cobra-css",
+  "version": "1.0.0",
+  "description": "A utility-first CSS library inspired by Tailwind CSS for fast UI development",
+  "main": "dist/cobra-utilities.css",
+  "files": [
+    "dist",
+    "src",
+    "docs"
+  ],
+  "keywords": [
+    "css",
+    "utility",
+    "cobra",
+    "css-utilities",
+    "tailwind",
+    "utility-first"
+  ],
+  "author": "payelancer <info@payelancer.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/seneargroup/cobra-css.git"
+  },
+  "bugs": {
+    "url": "https://github.com/seneargroup/cobra-css/issues"
+  },
+  "homepage": "https://github.com/seneargroup/cobra-css#readme",
+  "scripts": {
+    "build": "node build-css.js"
+  }
+}
